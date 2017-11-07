@@ -1,0 +1,13 @@
+{application, gen_cluster,
+ [{description, "A set of modules every erlang node/cluster should have"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { gen_cluster_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    os_mon
+   ]},
+  {env, []},
+  {modules, []}
+ ]}.
